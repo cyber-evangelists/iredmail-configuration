@@ -1,6 +1,6 @@
 # iredmail configration readme
 
-Iredmail is the mail server used by cyber evangelists company.
+Iredmail is the mail server used by cyber evangelists company. Ired using ldap for authentication mechanisms and mysql on  local port 3306.
 Here is brief configurations.
 
 ## Dns Record configurations
@@ -18,4 +18,5 @@ iredmail using `postfix, dovecot and mysl` services to mail managemnt
 
 
 
-
+## What is "Oops...something went wrong!" error?
+ Well if you got `Oops...something went wrong!` error its mean your mysql service got downed you need to restart it by something like this command `service mysql restart`. 
