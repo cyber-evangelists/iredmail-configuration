@@ -20,3 +20,6 @@ iredmail using `postfix, dovecot and mysl` services to mail managemnt
 
 ## What is "Oops...something went wrong!" error?
  Well if you got `Oops...something went wrong!` error its mean your mysql service got downed you need to restart it by something like this command `service mysql restart`. 
+
+## Can;t login if you still trying same login passwords?
+ Your ldap service got down, restart it your problem got resolved....
